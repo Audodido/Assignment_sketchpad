@@ -3,7 +3,7 @@
 
 
 import datetime
-import pytz
+# import pytz
 
 # d = datetime.datetime.today()
 #d_now = datetime.datetime.now(tz=pytz.utc)
