@@ -29,3 +29,4 @@ with open(args.csv, 'rt') as csvFile:
         if val < 5: #this is so we just see first 5 lines -- lose the if to see all lines
             print(row)
             val += 1
+
