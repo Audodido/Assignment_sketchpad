@@ -15,7 +15,6 @@ class Square(Rectangle):
     def area(self):
         return self.length * self.width
 
-
 class Cube(Rectangle):
     def __init__(self, length, width, height):
         super().__init__(length, width)
@@ -85,3 +84,8 @@ for i in instances:
         print(i.volume())
     else:
         print(i.area())
+
+
+
+##inheritance vs. composition (is-a vs. has-a)
+#https://www.youtube.com/watch?v=0mcP8ZpUR38
